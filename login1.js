@@ -1,4 +1,4 @@
-// ===================== DARK MODE =====================
+o// ===================== DARK MODE =====================
 const themeToggle = document.getElementById('themeToggle');
 const currentTheme = localStorage.getItem('theme') || 'light';
 
@@ -50,7 +50,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     if (userFound) {
         alert(`Bem-vindo, ${usuario}!`);
-        window.location.href = "tela2.html";
+        window.location.href = "index3.html";
     } else {
         alert("Usuário ou senha incorretos.\nVocê precisa se cadastrar primeiro.");
     }
