@@ -53,7 +53,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function(e) {
     }
 
     if (senha.length < 6) {
-        alert("A senha deve ter no mínimo 6 caracteres.");
+        alert("A senha deve ter no mínimo 4 caracteres.");
         return;
     }
 
@@ -74,5 +74,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(e) {
     localStorage.setItem('users', JSON.stringify(users));
 
     alert("Cadastro realizado com sucesso!");
-    window.location.href = "index.html";   // Volta para login
+    window.location.href = "index1.html";   // Volta para login
 });
